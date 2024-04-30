@@ -28,13 +28,13 @@ module.exports = mongoose =>{
         }
     })
 
-    schemaUser.method("toJSON", function() {
+    userSchema.method("toJSON", function() {
         const { __v, _id, ...object } = this.toObject();
         object.id = _id;
         return object;
 });
 
-let User = mongoose.model('User',schemaUser );
+let User = mongoose.model('User',userSchema );
 return User
  
 }

@@ -9,7 +9,7 @@ exports.create = async (req, res)=>{
     }
     let results;
 
-    await fetch('https://')
+    await fetch('http://localhost:3005/users')
     .then(res=>res.json())
     .then(data=>{
         console.log(results=data.results[0].email)})
