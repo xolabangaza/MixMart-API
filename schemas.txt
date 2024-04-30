@@ -1,0 +1,29 @@
+Products Schema
+
+Title
+Image
+Price
+Description
+Review
+Category
+Type
+Quantity
+OnPromo
+
+CART Schema
+
+Total
+Quantity from the user
+
+User Schema
+Username
+Email
+Password
+Whishlist
+Address
+Contact info
+Image
+
+
+
+
