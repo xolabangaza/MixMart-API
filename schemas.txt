@@ -24,6 +24,37 @@ Address
 Contact info
 Image
 
+mixMart_db = mongodb+srv://Mce5hhB713OsGLJr:Mce5hhB713OsGLJr@cluster0.kxal2.mongodb.net/mix_mart
+
+
+{
+  "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+  "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+  "price": 64.99,
+  "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+  "reviews": [
+    {
+      "author": "John Doe",
+      "content": "Great product!",
+      "rating": 5,
+      "_id": "66393c2eae3bb8f6e4f8341b"
+    },
+    {
+      "author": "Jane Smith",
+      "content": "Very useful!",
+      "rating": 4,
+      "_id": "66393c2eae3bb8f6e4f8341c"
+    }
+  ],
+  "category": "Electronics",
+  "type": "Gadget",
+  "quantity": 10,
+  "onpromo": false,
+  "createdAt": "2024-05-06T20:23:10.820Z",
+  "updatedAt": "2024-05-06T20:23:10.820Z",
+  "id": "66393c2eae3bb8f6e4f8341a"
+}
+
 
 
 
