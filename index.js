@@ -2,20 +2,19 @@ require ("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose")
-
-
-mongoose.connect("mongodb+srv://xolabangaza:QRUc7lWbDHHkhY4v@cluster0.v2o51wq.mongodb.net/mix_mart?")
-.then(()=>{
-    console.log("Connected to DB succesfully")
-})
 const productsRoutes = require('./routes/ProductRoute')
 
 
-
+mongoose.connect(process.env.mixMart_db)
+.then(()=>{
+    console.log("Connected to DB succesfully")
+}).catch(err =>{
+    console.error("Could not connect to db", err)
+})
 
 
 app.use(express.json())
-app.use('/api/mixmart',productsRoutes)
+app.use('/api/v1/mixmart/',productsRoutes)
 
 
 app.listen(4000, () => {
