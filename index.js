@@ -8,7 +8,6 @@ mongoose.connect("mongodb+srv://xolabangaza:QRUc7lWbDHHkhY4v@cluster0.v2o51wq.mo
 .then(()=>{
     console.log("Connected to DB succesfully")
 })
-const mongoose = require("mongoose")
 const productsRoutes = require('./routes/ProductRoute')
 
 
@@ -19,6 +18,6 @@ app.use(express.json())
 app.use('/api/mixmart',productsRoutes)
 
 
-app.listen(3005, () => {
-    console.log("Server is running @ port", 3005);
+app.listen(4000, () => {
+    console.log("Server is running @ port", 4000);
  });
